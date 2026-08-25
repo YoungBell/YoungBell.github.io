@@ -549,22 +549,22 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
       <a class="media-link" href="https://szzx.ysu.edu.cn/info/1018/6052.htm" target="_blank" rel="noopener noreferrer">
         <img class="media-visual" src="/assets/media-hebei.jpg" alt="Shaoduo Fu at a university innovation event">
         <span class="media-copy">
-          <span class="media-title-row"><span class="media-title">Hebei Youth Role Model: Shaoduo Fu</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">Hebei Provincial Center for University Network Ideological and Political Work · 2024</span>
+          <span class="media-title-row"><span class="media-title">Hebei Provincial Center for University Network Ideological and Political Work</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+          <span class="media-source">Hebei Youth Role Model · 2024</span>
         </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODk0NDg0Mw==&amp;mid=2649689988&amp;idx=1&amp;sn=bbf32f453a2e076a08f8998e584a857f&amp;chksm=bf558eb720f405804631c6d085c5de9a9fd10c97b1e5a1f69098e515b51e2d5f98102fd102f5&amp;scene=27" target="_blank" rel="noopener noreferrer">
         <img class="media-visual" src="/assets/media-wechat-academic.svg" alt="Academic Journey WeChat feature illustration">
         <span class="media-copy">
-          <span class="media-title-row"><span class="media-title">Academic Journey</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">WeChat Official Account</span>
+          <span class="media-title-row"><span class="media-title">Hebei University Official WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+          <span class="media-source">Official WeChat Feature</span>
         </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MzU5NTAxNjMyMA==&amp;mid=2247559781&amp;idx=3&amp;sn=80ee5645e170ccc91fb29268fa2e400f&amp;chksm=fe7bc58ac90c4c9c25bf77930ae0fade2480610aa69da709ca19ce9353b7341ea2266fd67f7a&amp;scene=27" target="_blank" rel="noopener noreferrer">
         <img class="media-visual" src="/assets/media-wechat-spotlight.svg" alt="Student Spotlight WeChat feature illustration">
         <span class="media-copy">
-          <span class="media-title-row"><span class="media-title">Student Spotlight</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">WeChat Official Account</span>
+          <span class="media-title-row"><span class="media-title">Hebei University Student Affairs WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+          <span class="media-source">Student Affairs Feature</span>
         </span>
       </a>
     </div>
