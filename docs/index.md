@@ -74,7 +74,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    gap: 8px 24px;
+    gap: 8px 20px;
   }
 
   .nav-links a {
@@ -90,10 +90,10 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .hero {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 250px;
+    grid-template-columns: minmax(0, 1fr) 190px;
     align-items: center;
-    gap: 68px;
-    padding: 62px 64px 58px;
+    gap: 52px;
+    padding: 54px 64px 52px;
   }
 
   .hero h1 {
@@ -102,7 +102,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     border: 0 !important;
     color: var(--navy-dark);
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(3rem, 7vw, 4.5rem);
+    font-size: clamp(1.65rem, 3.4vw, 2.25rem);
     font-weight: 600;
     letter-spacing: -0.045em;
     line-height: 1.03;
@@ -162,13 +162,13 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   }
 
   .social-link svg {
-    width: 21px;
-    height: 21px;
+    width: 27px;
+    height: 27px;
   }
 
   .portrait {
     display: block;
-    width: 250px;
+    width: 190px;
     aspect-ratio: 4 / 5;
     border: 1px solid #cbd5da;
     border-radius: 3px;
@@ -205,10 +205,153 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     font-weight: 600;
   }
 
-  .section-placeholder {
-    margin: 0 !important;
+  .profile-copy {
+    display: grid;
+    gap: 13px;
+  }
+
+  .profile-copy p { margin: 0 !important; }
+
+  .inline-icon-link {
+    display: inline-grid;
+    width: 28px;
+    height: 28px;
+    margin-left: 7px;
+    place-items: center;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    color: var(--navy-dark) !important;
+    vertical-align: -8px;
+    text-decoration: none !important;
+    transition: border-color 160ms ease, background 160ms ease;
+  }
+
+  .inline-icon-link:hover {
+    border-color: var(--navy);
+    background: var(--soft-blue);
+  }
+
+  .inline-icon-link svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .interest-label {
+    color: var(--navy-dark);
+    font-weight: 700;
+  }
+
+  .education-list,
+  .award-list {
+    display: grid;
+    gap: 0;
+    border-top: 1px solid #dce3e7;
+  }
+
+  .education-item,
+  .award-item {
+    display: grid;
+    grid-template-columns: 126px minmax(0, 1fr);
+    gap: 24px;
+    padding: 18px 0;
+    border-bottom: 1px solid #dce3e7;
+  }
+
+  .education-year,
+  .award-year {
+    color: var(--navy);
+    font-size: 0.88rem;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+  }
+
+  .education-body p,
+  .award-item p { margin: 0 !important; }
+
+  .education-degree {
+    color: var(--navy-dark);
+    font-weight: 700;
+  }
+
+  .education-meta {
+    margin-top: 4px !important;
     color: var(--muted);
-    font-style: italic;
+    font-size: 0.94rem;
+  }
+
+  .publication-list,
+  .patent-list {
+    display: grid;
+    gap: 18px;
+    margin: 0 !important;
+    padding-left: 1.45rem !important;
+  }
+
+  .publication-list li,
+  .patent-list li {
+    padding-left: 8px;
+  }
+
+  .publication-list li::marker,
+  .patent-list li::marker {
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  .publication-list strong,
+  .patent-list strong { color: var(--navy-dark); }
+
+  .media-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .media-link {
+    display: flex;
+    min-height: 116px;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px;
+    border: 1px solid #ccd7dd;
+    color: var(--ink) !important;
+    background: #fbfcfc;
+    text-decoration: none !important;
+    transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+  }
+
+  .media-link:hover {
+    transform: translateY(-2px);
+    border-color: var(--navy);
+    background: var(--soft-blue);
+  }
+
+  .media-title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .media-title {
+    color: var(--navy-dark);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+
+  .media-arrow {
+    color: var(--navy);
+    font-size: 1.2rem;
+  }
+
+  .media-source {
+    color: var(--muted);
+    font-size: 0.78rem;
+    letter-spacing: 0.035em;
+    line-height: 1.45;
+    text-transform: uppercase;
   }
 
   .site-footer {
@@ -241,19 +384,25 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
     .portrait {
       grid-row: 1;
-      width: min(220px, 78vw);
+      width: min(180px, 70vw);
       justify-self: start;
     }
 
     .content-section { padding: 32px 28px 36px; }
     .site-footer { padding: 20px 28px; }
+    .media-list { grid-template-columns: 1fr; }
   }
 
   @media (max-width: 480px) {
     .site-nav { display: block; }
     .monogram { margin-bottom: 16px; }
     .nav-links { justify-content: flex-start; }
-    .hero h1 { font-size: 2.75rem; }
+    .hero h1 { font-size: 1.9rem; }
+    .education-item,
+    .award-item {
+      grid-template-columns: 1fr;
+      gap: 5px;
+    }
   }
 </style>
 
@@ -266,6 +415,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
       <a href="#publications">Publications</a>
       <a href="#patents">Patents</a>
       <a href="#awards">Awards</a>
+      <a href="#media">News &amp; Media</a>
     </div>
   </nav>
 
@@ -309,30 +459,86 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   <section class="content-section" id="profile">
     <div class="section-heading"><span class="section-number">01</span><h2>Profile</h2></div>
-    <p class="section-placeholder">Profile content will be added here.</p>
+    <div class="profile-copy">
+      <p>Engineering doctoral student in Electronic Information at the School of Precision Instrument and Opto-Electronics Engineering, Tianjin University.</p>
+      <p>Supervised by Professor Jiao Li<a class="inline-icon-link" href="https://jyxy.tju.edu.cn/cn/szdw/20130827/645.shtml" target="_blank" rel="noopener noreferrer" aria-label="Professor Jiao Li's homepage" title="Professor Jiao Li's homepage"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5H5v14h14v-4M13 5h6v6M11 13l8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>.</p>
+      <p><span class="interest-label">Research interests:</span> optoacoustic imaging, computational imaging, AI for Science, and the development of optoacoustic imaging for medical and industrial applications.</p>
+    </div>
   </section>
 
   <section class="content-section" id="education">
     <div class="section-heading"><span class="section-number">02</span><h2>Education</h2></div>
-    <p class="section-placeholder">Education details will be added here.</p>
+    <div class="education-list">
+      <div class="education-item">
+        <div class="education-year">2024–Present</div>
+        <div class="education-body">
+          <p class="education-degree">Doctor of Engineering, Electronic Information (Integrated Master–Doctor Program)</p>
+          <p class="education-meta">School of Precision Instrument and Opto-Electronics Engineering, Tianjin University · State Key Laboratory of Precision Testing Technology and Instruments</p>
+        </div>
+      </div>
+      <div class="education-item">
+        <div class="education-year">2024–2026</div>
+        <div class="education-body">
+          <p class="education-degree">Master of Engineering, Optical Engineering</p>
+          <p class="education-meta">School of Precision Instrument and Opto-Electronics Engineering, Tianjin University · State Key Laboratory of Precision Testing Technology and Instruments</p>
+        </div>
+      </div>
+      <div class="education-item">
+        <div class="education-year">2020–2024</div>
+        <div class="education-body">
+          <p class="education-degree">Bachelor of Engineering, Measurement and Control Technology and Instrumentation</p>
+          <p class="education-meta">Hebei University · Top 1% (1/105)</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="content-section" id="publications">
     <div class="section-heading"><span class="section-number">03</span><h2>Publications</h2></div>
-    <p class="section-placeholder">Publications will be added here.</p>
+    <ol class="publication-list">
+      <li><strong>S. Fu</strong>, K. Shang, P. Han, J. Man, Y. Tian, Z. Tian and J. Li. Non-Destructive Testing and Evaluation of the SiC<sub>f</sub>/SiC Composite Through Photoacoustic Tomography <strong>(Invited)</strong> [J]. <em>Chinese Journal of Lasers</em>, 2026.</li>
+      <li><strong>S. Fu</strong>, Y. Lv, P. Han, J. Wang, J. Man, B. Zhang, K. Wang, Z. Cai, F. Gao and J. Li. High-speed computation of high-quality light fluence distribution from low-photon Monte Carlo using a Fourier neural network [J]. <em>Optics Letters</em>, 2025.</li>
+      <li>J. Man, P. Han, Y. Lv, <strong>S. Fu</strong>, J. Wang, B. Zhang, K. Wang, Z. Cai and J. Li. Three-dimensional whole-body mouse photoacoustic imaging using a linear transducer array with translate-rotate scanning geometry. In <em>Optics in Health Care and Biomedical Optics XV (SPIE)</em>, 2025.</li>
+      <li>Y. Wang, Y. Pan, Y. Li, C. Li, W. Zhao and <strong>S. Fu</strong>. “Pattern of hexagon with line in dielectric barrier discharge.” <em>Journal of Hebei University (Natural Science Edition)</em>, 2022.</li>
+    </ol>
   </section>
 
   <section class="content-section" id="patents">
     <div class="section-heading"><span class="section-number">04</span><h2>Patents</h2></div>
-    <p class="section-placeholder">Patents will be added here.</p>
+    <ol class="patent-list">
+      <li>J. Li, <strong>S. Fu</strong>, P. Han and F. Gao. A system and method for calculating optical absorption coefficients based on photoacoustic imaging and untrained networks [CN121505059A].</li>
+      <li>J. Li, K. Shang, Z. Tian, <strong>S. Fu</strong>, P. Han, J. Deng and G. Lu. Photoacoustic Imaging-Based Nondestructive Online Inspection System and Method for Composite Materials [CN121805251A].</li>
+    </ol>
   </section>
 
   <section class="content-section" id="awards">
     <div class="section-heading"><span class="section-number">05</span><h2>Awards</h2></div>
-    <p class="section-placeholder">Awards and honors will be added here.</p>
+    <div class="award-list">
+      <div class="award-item"><div class="award-year">2026</div><p>Jiang Zhen Scholarship</p></div>
+      <div class="award-item"><div class="award-year">2025</div><p>Jiang Zhen Scholarship</p></div>
+      <div class="award-item"><div class="award-year">2024</div><p>Outstanding Graduate of Hebei Province</p></div>
+      <div class="award-item"><div class="award-year">2024</div><p>National Scholarship for Undergraduate Students</p></div>
+    </div>
+  </section>
+
+  <section class="content-section" id="media">
+    <div class="section-heading"><span class="section-number">06</span><h2>News &amp; Media</h2></div>
+    <div class="media-list">
+      <a class="media-link" href="https://szzx.ysu.edu.cn/info/1018/6052.htm" target="_blank" rel="noopener noreferrer">
+        <span class="media-title-row"><span class="media-title">Media Feature 01</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+        <span class="media-source">Hebei Provincial Center for University Network Ideological and Political Work</span>
+      </a>
+      <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODk0NDg0Mw==&amp;mid=2649689988&amp;idx=1&amp;sn=bbf32f453a2e076a08f8998e584a857f&amp;chksm=bf558eb720f405804631c6d085c5de9a9fd10c97b1e5a1f69098e515b51e2d5f98102fd102f5&amp;scene=27" target="_blank" rel="noopener noreferrer">
+        <span class="media-title-row"><span class="media-title">Media Feature 02</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+        <span class="media-source">WeChat Official Account</span>
+      </a>
+      <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MzU5NTAxNjMyMA==&amp;mid=2247559781&amp;idx=3&amp;sn=80ee5645e170ccc91fb29268fa2e400f&amp;chksm=fe7bc58ac90c4c9c25bf77930ae0fade2480610aa69da709ca19ce9353b7341ea2266fd67f7a&amp;scene=27" target="_blank" rel="noopener noreferrer">
+        <span class="media-title-row"><span class="media-title">Media Feature 03</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+        <span class="media-source">WeChat Official Account</span>
+      </a>
+    </div>
   </section>
 
   <footer class="site-footer">© 2026 Shaoduo Fu · Hosted with GitHub Pages</footer>
 </main>
-
 
