@@ -207,9 +207,8 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .profile-copy {
     display: grid;
-    gap: 15px;
-    font-size: 1.08rem;
-    line-height: 1.75;
+    gap: 9px;
+    line-height: 1.7;
   }
 
   .profile-copy p { margin: 0 !important; }
@@ -482,7 +481,10 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   <section class="content-section" id="profile">
     <div class="section-heading"><span class="section-number">01</span><h2>Profile</h2></div>
     <div class="profile-copy">
-      <p><span class="profile-label">Current position:</span> Engineering doctoral student, Electronic Information, School of Precision Instrument and Opto-Electronics Engineering, Tianjin University. Supervised by Professor Jiao Li<a class="inline-icon-link" href="https://jyxy.tju.edu.cn/cn/szdw/20130827/645.shtml" target="_blank" rel="noopener noreferrer" aria-label="Professor Jiao Li's homepage" title="Professor Jiao Li's homepage"><img src="/assets/tju-emblem.png" alt="Tianjin University emblem"></a>.</p>
+      <p><span class="profile-label">Current position:</span> Engineering doctoral student</p>
+      <p><span class="profile-label">Field:</span> Electronic Information</p>
+      <p><span class="profile-label">Affiliation:</span> School of Precision Instrument and Opto-Electronics Engineering, Tianjin University</p>
+      <p><span class="profile-label">Supervisor:</span> Jiao Li<a class="inline-icon-link" href="https://jyxy.tju.edu.cn/cn/szdw/20130827/645.shtml" target="_blank" rel="noopener noreferrer" aria-label="Professor Jiao Li's homepage" title="Professor Jiao Li's homepage"><img src="/assets/tju-emblem.png" alt="Tianjin University emblem"></a></p>
       <p><span class="profile-label">Research interests:</span> optoacoustic imaging, computational imaging, AI for Science, and the development of optoacoustic imaging for medical and industrial applications.</p>
     </div>
   </section>
