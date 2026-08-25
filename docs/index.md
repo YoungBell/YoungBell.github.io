@@ -359,9 +359,9 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   .media-title {
     color: var(--navy-dark);
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.08rem;
+    font-size: 0.94rem;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.38;
   }
 
   .media-arrow {
@@ -509,7 +509,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
         <div class="education-year">2020–2024</div>
         <div class="education-body">
           <p class="education-degree">Bachelor, Measurement and Control Technology and Instrumentation</p>
-          <p class="education-meta">Hebei University · Top 1% (1/105)</p>
+          <p class="education-meta">Hebei University · GPA: Top 1% (1/105)</p>
         </div>
       </div>
     </div>
@@ -550,21 +550,21 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
         <img class="media-visual" src="/assets/media-hebei.jpg" alt="Shaoduo Fu at a university innovation event">
         <span class="media-copy">
           <span class="media-title-row"><span class="media-title">Hebei Provincial Center for University Network Ideological and Political Work</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">Hebei Youth Role Model · 2024</span>
+          <span class="media-source">2024</span>
         </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODk0NDg0Mw==&amp;mid=2649689988&amp;idx=1&amp;sn=bbf32f453a2e076a08f8998e584a857f&amp;chksm=bf558eb720f405804631c6d085c5de9a9fd10c97b1e5a1f69098e515b51e2d5f98102fd102f5&amp;scene=27" target="_blank" rel="noopener noreferrer">
-        <img class="media-visual" src="/assets/media-wechat-academic.svg" alt="Academic Journey WeChat feature illustration">
+        <img class="media-visual" src="/assets/media-hebei-teaching.jpg" alt="Shaoduo Fu volunteering in a classroom">
         <span class="media-copy">
           <span class="media-title-row"><span class="media-title">Hebei University Official WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">Official WeChat Feature</span>
+          <span class="media-source">2024</span>
         </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MzU5NTAxNjMyMA==&amp;mid=2247559781&amp;idx=3&amp;sn=80ee5645e170ccc91fb29268fa2e400f&amp;chksm=fe7bc58ac90c4c9c25bf77930ae0fade2480610aa69da709ca19ce9353b7341ea2266fd67f7a&amp;scene=27" target="_blank" rel="noopener noreferrer">
-        <img class="media-visual" src="/assets/media-wechat-spotlight.svg" alt="Student Spotlight WeChat feature illustration">
+        <img class="media-visual" src="/assets/media-hebei-campus.jpg" alt="Shaoduo Fu flying a paper airplane on campus">
         <span class="media-copy">
           <span class="media-title-row"><span class="media-title">Hebei University Student Affairs WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">Student Affairs Feature</span>
+          <span class="media-source">2024</span>
         </span>
       </a>
     </div>
