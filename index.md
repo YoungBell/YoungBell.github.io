@@ -316,6 +316,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .media-link {
     display: flex;
+    min-height: 300px;
     flex-direction: column;
     overflow: hidden;
     border: 1px solid #ccd7dd;
@@ -334,17 +335,18 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   .media-visual {
     display: block;
     width: 100%;
-    height: 128px;
+    height: 148px;
     border-bottom: 1px solid #d7e0e4;
     object-fit: cover;
   }
 
   .media-copy {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: flex-start;
     gap: 8px;
-    padding: 14px 15px 15px;
+    padding: 18px;
   }
 
   .media-title-row {
@@ -551,21 +553,21 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
         <img class="media-visual" src="/assets/media-hebei.jpg" alt="Shaoduo Fu at a university innovation event">
         <span class="media-copy">
           <span class="media-title-row"><span class="media-title">Hebei Provincial Center for University Network Ideological and Political Work</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">August 2024</span>
+          <span class="media-source">08 2024</span>
         </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODk0NDg0Mw==&amp;mid=2649689988&amp;idx=1&amp;sn=bbf32f453a2e076a08f8998e584a857f&amp;chksm=bf558eb720f405804631c6d085c5de9a9fd10c97b1e5a1f69098e515b51e2d5f98102fd102f5&amp;scene=27" target="_blank" rel="noopener noreferrer">
         <img class="media-visual" src="/assets/media-hebei-teaching.jpg" alt="Shaoduo Fu volunteering in a classroom">
         <span class="media-copy">
           <span class="media-title-row"><span class="media-title">Hebei University Official WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">August 2024</span>
+          <span class="media-source">07 2024</span>
         </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MzU5NTAxNjMyMA==&amp;mid=2247559781&amp;idx=3&amp;sn=80ee5645e170ccc91fb29268fa2e400f&amp;chksm=fe7bc58ac90c4c9c25bf77930ae0fade2480610aa69da709ca19ce9353b7341ea2266fd67f7a&amp;scene=27" target="_blank" rel="noopener noreferrer">
         <img class="media-visual" src="/assets/media-hebei-campus.jpg" alt="Shaoduo Fu flying a paper airplane on campus">
         <span class="media-copy">
           <span class="media-title-row"><span class="media-title">Hebei University Student Affairs WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">August 2024</span>
+          <span class="media-source">11 2023</span>
         </span>
       </a>
     </div>
