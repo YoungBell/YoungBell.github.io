@@ -1,5 +1,5 @@
 # YoungBell.github.io
 
-Shaoduo Fu 的个人主页，使用 GitHub Pages 托管，由 Codex 授权创建。
+Shaoduo Fu's personal homepage, hosted using GitHub Pages, was created from Codex.
 
-主页地址：<https://youngbell.github.io/>
+Address:：<https://youngbell.github.io/>
