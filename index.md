@@ -537,8 +537,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   <section class="content-section" id="awards">
     <div class="section-heading"><span class="section-number">05</span><h2>Awards</h2></div>
     <div class="award-list">
-      <div class="award-item"><div class="award-year">2026</div><p>Jiang Zhen Scholarship</p></div>
-      <div class="award-item"><div class="award-year">2025</div><p>Jiang Zhen Scholarship</p></div>
+      <div class="award-item"><div class="award-year">2025、2026</div><p>Jiang Zhen Scholarship (twice)</p></div>
       <div class="award-item"><div class="award-year">2024</div><p>Outstanding Graduate of Hebei Province</p></div>
       <div class="award-item"><div class="award-year">2024</div><p>National Scholarship for Undergraduate Students</p></div>
     </div>
