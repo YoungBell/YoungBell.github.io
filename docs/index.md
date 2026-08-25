@@ -351,6 +351,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .media-title-row {
     display: flex;
+    min-height: 76px;
     align-items: flex-start;
     justify-content: space-between;
     gap: 12px;
