@@ -519,8 +519,8 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   <section class="content-section" id="publications">
     <div class="section-heading"><span class="section-number">03</span><h2>Publications</h2></div>
     <ol class="publication-list">
-      <li><strong>S. Fu</strong>, K. Shang, P. Han, J. Man, Y. Tian, Z. Tian and J. Li. Non-Destructive Testing and Evaluation of the SiC<sub>f</sub>/SiC Composite Through Photoacoustic Tomography <strong>(Invited)</strong> [J]. <em>Chinese Journal of Lasers</em>, 2026.</li>
-      <li><strong>S. Fu</strong>, Y. Lv, P. Han, J. Wang, J. Man, B. Zhang, K. Wang, Z. Cai, F. Gao and J. Li. High-speed computation of high-quality light fluence distribution from low-photon Monte Carlo using a Fourier neural network [J]. <em>Optics Letters</em>, 2025.</li>
+      <li><strong>S. Fu</strong>, K. Shang, P. Han, J. Man, Y. Tian, Z. Tian and J. Li. Non-Destructive Testing and Evaluation of the SiC<sub>f</sub>/SiC Composite Through Photoacoustic Tomography <strong>(Invited/Cover Story)</strong>. <em>Chinese Journal of Lasers</em>, 2026.</li>
+      <li><strong>S. Fu</strong>, Y. Lv, P. Han, J. Wang, J. Man, B. Zhang, K. Wang, Z. Cai, F. Gao and J. Li. High-speed computation of high-quality light fluence distribution from low-photon Monte Carlo using a Fourier neural network. <em>Optics Letters</em>, 2025.</li>
       <li>J. Man, P. Han, Y. Lv, <strong>S. Fu</strong>, J. Wang, B. Zhang, K. Wang, Z. Cai and J. Li. Three-dimensional whole-body mouse photoacoustic imaging using a linear transducer array with translate-rotate scanning geometry. In <em>Optics in Health Care and Biomedical Optics XV (SPIE)</em>, 2025.</li>
       <li>Y. Wang, Y. Pan, Y. Li, C. Li, W. Zhao and <strong>S. Fu</strong>. “Pattern of hexagon with line in dielectric barrier discharge.” <em>Journal of Hebei University (Natural Science Edition)</em>, 2022.</li>
     </ol>
