@@ -309,14 +309,12 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .media-list {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 238px));
-    justify-content: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 14px;
   }
 
   .media-link {
     display: flex;
-    min-height: 300px;
     flex-direction: column;
     overflow: hidden;
     border: 1px solid #ccd7dd;
@@ -335,23 +333,22 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   .media-visual {
     display: block;
     width: 100%;
-    height: 148px;
+    height: 128px;
     border-bottom: 1px solid #d7e0e4;
     object-fit: cover;
   }
 
   .media-copy {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: flex-start;
     gap: 8px;
-    padding: 18px;
+    padding: 14px 15px 15px;
   }
 
   .media-title-row {
     display: flex;
-    min-height: 76px;
+    min-height: 58px;
     align-items: flex-start;
     justify-content: space-between;
     gap: 12px;
