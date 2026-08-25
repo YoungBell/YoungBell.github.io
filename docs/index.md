@@ -207,36 +207,43 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .profile-copy {
     display: grid;
-    gap: 13px;
+    gap: 15px;
+    font-size: 1.08rem;
+    line-height: 1.75;
   }
 
   .profile-copy p { margin: 0 !important; }
 
   .inline-icon-link {
     display: inline-grid;
-    width: 28px;
-    height: 28px;
+    width: 32px;
+    height: 32px;
     margin-left: 7px;
     place-items: center;
-    border: 1px solid var(--rule);
+    overflow: hidden;
+    border: 1px solid #9eb2bf;
     border-radius: 50%;
     color: var(--navy-dark) !important;
-    vertical-align: -8px;
+    background: #fff;
+    vertical-align: -10px;
     text-decoration: none !important;
-    transition: border-color 160ms ease, background 160ms ease;
+    transition: transform 160ms ease, border-color 160ms ease;
   }
 
   .inline-icon-link:hover {
+    transform: translateY(-1px);
     border-color: var(--navy);
-    background: var(--soft-blue);
   }
 
-  .inline-icon-link svg {
-    width: 16px;
-    height: 16px;
+  .inline-icon-link img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
   }
 
-  .interest-label {
+  .profile-label {
     color: var(--navy-dark);
     font-weight: 700;
   }
@@ -309,11 +316,9 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
   .media-link {
     display: flex;
-    min-height: 116px;
+    min-height: 300px;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 20px;
-    padding: 18px;
+    overflow: hidden;
     border: 1px solid #ccd7dd;
     color: var(--ink) !important;
     background: #fbfcfc;
@@ -327,6 +332,23 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     background: var(--soft-blue);
   }
 
+  .media-visual {
+    display: block;
+    width: 100%;
+    height: 148px;
+    border-bottom: 1px solid #d7e0e4;
+    object-fit: cover;
+  }
+
+  .media-copy {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 18px;
+  }
+
   .media-title-row {
     display: flex;
     align-items: center;
@@ -337,8 +359,9 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   .media-title {
     color: var(--navy-dark);
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.05rem;
+    font-size: 1.08rem;
     font-weight: 600;
+    line-height: 1.4;
   }
 
   .media-arrow {
@@ -460,9 +483,8 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   <section class="content-section" id="profile">
     <div class="section-heading"><span class="section-number">01</span><h2>Profile</h2></div>
     <div class="profile-copy">
-      <p>Engineering doctoral student in Electronic Information at the School of Precision Instrument and Opto-Electronics Engineering, Tianjin University.</p>
-      <p>Supervised by Professor Jiao Li<a class="inline-icon-link" href="https://jyxy.tju.edu.cn/cn/szdw/20130827/645.shtml" target="_blank" rel="noopener noreferrer" aria-label="Professor Jiao Li's homepage" title="Professor Jiao Li's homepage"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5H5v14h14v-4M13 5h6v6M11 13l8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>.</p>
-      <p><span class="interest-label">Research interests:</span> optoacoustic imaging, computational imaging, AI for Science, and the development of optoacoustic imaging for medical and industrial applications.</p>
+      <p><span class="profile-label">Current position:</span> Engineering doctoral student, Electronic Information, School of Precision Instrument and Opto-Electronics Engineering, Tianjin University. Supervised by Professor Jiao Li<a class="inline-icon-link" href="https://jyxy.tju.edu.cn/cn/szdw/20130827/645.shtml" target="_blank" rel="noopener noreferrer" aria-label="Professor Jiao Li's homepage" title="Professor Jiao Li's homepage"><img src="/assets/tju-emblem.png" alt="Tianjin University emblem"></a>.</p>
+      <p><span class="profile-label">Research interests:</span> optoacoustic imaging, computational imaging, AI for Science, and the development of optoacoustic imaging for medical and industrial applications.</p>
     </div>
   </section>
 
@@ -479,14 +501,14 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
       <div class="education-item">
         <div class="education-year">2024–2026</div>
         <div class="education-body">
-          <p class="education-degree">Master of Engineering, Optical Engineering</p>
+          <p class="education-degree">Master, Optical Engineering</p>
           <p class="education-meta">School of Precision Instrument and Opto-Electronics Engineering, Tianjin University · State Key Laboratory of Precision Testing Technology and Instruments</p>
         </div>
       </div>
       <div class="education-item">
         <div class="education-year">2020–2024</div>
         <div class="education-body">
-          <p class="education-degree">Bachelor of Engineering, Measurement and Control Technology and Instrumentation</p>
+          <p class="education-degree">Bachelor, Measurement and Control Technology and Instrumentation</p>
           <p class="education-meta">Hebei University · Top 1% (1/105)</p>
         </div>
       </div>
@@ -525,16 +547,25 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     <div class="section-heading"><span class="section-number">06</span><h2>News &amp; Media</h2></div>
     <div class="media-list">
       <a class="media-link" href="https://szzx.ysu.edu.cn/info/1018/6052.htm" target="_blank" rel="noopener noreferrer">
-        <span class="media-title-row"><span class="media-title">Media Feature 01</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-        <span class="media-source">Hebei Provincial Center for University Network Ideological and Political Work</span>
+        <img class="media-visual" src="/assets/media-hebei.jpg" alt="Shaoduo Fu at a university innovation event">
+        <span class="media-copy">
+          <span class="media-title-row"><span class="media-title">Hebei Youth Role Model: Shaoduo Fu</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+          <span class="media-source">Hebei Provincial Center for University Network Ideological and Political Work · 2024</span>
+        </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODk0NDg0Mw==&amp;mid=2649689988&amp;idx=1&amp;sn=bbf32f453a2e076a08f8998e584a857f&amp;chksm=bf558eb720f405804631c6d085c5de9a9fd10c97b1e5a1f69098e515b51e2d5f98102fd102f5&amp;scene=27" target="_blank" rel="noopener noreferrer">
-        <span class="media-title-row"><span class="media-title">Media Feature 02</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-        <span class="media-source">WeChat Official Account</span>
+        <img class="media-visual" src="/assets/media-wechat-academic.svg" alt="Academic Journey WeChat feature illustration">
+        <span class="media-copy">
+          <span class="media-title-row"><span class="media-title">Academic Journey</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+          <span class="media-source">WeChat Official Account</span>
+        </span>
       </a>
       <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MzU5NTAxNjMyMA==&amp;mid=2247559781&amp;idx=3&amp;sn=80ee5645e170ccc91fb29268fa2e400f&amp;chksm=fe7bc58ac90c4c9c25bf77930ae0fade2480610aa69da709ca19ce9353b7341ea2266fd67f7a&amp;scene=27" target="_blank" rel="noopener noreferrer">
-        <span class="media-title-row"><span class="media-title">Media Feature 03</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-        <span class="media-source">WeChat Official Account</span>
+        <img class="media-visual" src="/assets/media-wechat-spotlight.svg" alt="Student Spotlight WeChat feature illustration">
+        <span class="media-copy">
+          <span class="media-title-row"><span class="media-title">Student Spotlight</span><span class="media-arrow" aria-hidden="true">↗</span></span>
+          <span class="media-source">WeChat Official Account</span>
+        </span>
       </a>
     </div>
   </section>
