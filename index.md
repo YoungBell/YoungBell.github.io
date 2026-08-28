@@ -307,74 +307,6 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   .publication-list strong,
   .patent-list strong { color: var(--navy-dark); }
 
-  .media-list {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 14px;
-  }
-
-  .media-link {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    border: 1px solid #ccd7dd;
-    color: var(--ink) !important;
-    background: #fbfcfc;
-    text-decoration: none !important;
-    transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
-  }
-
-  .media-link:hover {
-    transform: translateY(-2px);
-    border-color: var(--navy);
-    background: var(--soft-blue);
-  }
-
-  .media-visual {
-    display: block;
-    width: 100%;
-    height: 128px;
-    border-bottom: 1px solid #d7e0e4;
-    object-fit: cover;
-  }
-
-  .media-copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 8px;
-    padding: 14px 15px 15px;
-  }
-
-  .media-title-row {
-    display: flex;
-    min-height: 58px;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-  }
-
-  .media-title {
-    color: var(--navy-dark);
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 0.82rem;
-    font-weight: 600;
-    line-height: 1.38;
-  }
-
-  .media-arrow {
-    color: var(--navy);
-    font-size: 1.2rem;
-  }
-
-  .media-source {
-    color: var(--muted);
-    font-size: 0.78rem;
-    letter-spacing: 0.035em;
-    line-height: 1.45;
-    text-transform: uppercase;
-  }
-
   .site-footer {
     padding: 22px 64px;
     border-top: 3px solid var(--navy);
@@ -411,7 +343,6 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
 
     .content-section { padding: 32px 28px 36px; }
     .site-footer { padding: 20px 28px; }
-    .media-list { grid-template-columns: 1fr; }
   }
 
   @media (max-width: 480px) {
@@ -436,7 +367,6 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
       <a href="#publications">Publications</a>
       <a href="#patents">Patents</a>
       <a href="#awards">Awards</a>
-      <a href="#media">News &amp; Media</a>
     </div>
   </nav>
 
@@ -543,33 +473,5 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     </div>
   </section>
 
-  <section class="content-section" id="media">
-    <div class="section-heading"><span class="section-number">06</span><h2>News &amp; Media</h2></div>
-    <div class="media-list">
-      <a class="media-link" href="https://szzx.ysu.edu.cn/info/1018/6052.htm" target="_blank" rel="noopener noreferrer">
-        <img class="media-visual" src="/assets/media-hebei.jpg" alt="Shaoduo Fu at a university innovation event">
-        <span class="media-copy">
-          <span class="media-title-row"><span class="media-title">Hebei Provincial Center for University Network Ideological and Political Work</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">08 2024</span>
-        </span>
-      </a>
-      <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODk0NDg0Mw==&amp;mid=2649689988&amp;idx=1&amp;sn=bbf32f453a2e076a08f8998e584a857f&amp;chksm=bf558eb720f405804631c6d085c5de9a9fd10c97b1e5a1f69098e515b51e2d5f98102fd102f5&amp;scene=27" target="_blank" rel="noopener noreferrer">
-        <img class="media-visual" src="/assets/media-hebei-teaching.jpg" alt="Shaoduo Fu volunteering in a classroom">
-        <span class="media-copy">
-          <span class="media-title-row"><span class="media-title">Hebei University Official WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">07 2024</span>
-        </span>
-      </a>
-      <a class="media-link" href="https://mp.weixin.qq.com/s?__biz=MzU5NTAxNjMyMA==&amp;mid=2247559781&amp;idx=3&amp;sn=80ee5645e170ccc91fb29268fa2e400f&amp;chksm=fe7bc58ac90c4c9c25bf77930ae0fade2480610aa69da709ca19ce9353b7341ea2266fd67f7a&amp;scene=27" target="_blank" rel="noopener noreferrer">
-        <img class="media-visual" src="/assets/media-hebei-campus.jpg" alt="Shaoduo Fu flying a paper airplane on campus">
-        <span class="media-copy">
-          <span class="media-title-row"><span class="media-title">Hebei University Student Affairs WeChat</span><span class="media-arrow" aria-hidden="true">↗</span></span>
-          <span class="media-source">11 2023</span>
-        </span>
-      </a>
-    </div>
-  </section>
-
   <footer class="site-footer">© 2026 Shaoduo Fu · Hosted with GitHub Pages</footer>
 </main>
-
