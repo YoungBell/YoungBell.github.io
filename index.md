@@ -366,7 +366,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
       <a href="#education">Education</a>
       <a href="#publications">Publications</a>
       <a href="#patents">Patents</a>
-      <a href="#awards">Awards</a>
+      <a href="#awards">Awards & Memberships</a>
     </div>
   </nav>
 
@@ -467,6 +467,8 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
   <section class="content-section" id="awards">
     <div class="section-heading"><span class="section-number">05</span><h2>Awards</h2></div>
     <div class="award-list">
+      <div class="award-item"><div class="award-year">2024-2029</div><p>China Instrument and Control Society - Trainee Engineer of Instrument, Control and Measuremen</p></div>
+      <div class="award-item"><div class="award-year">2024-2027</div><p>Chinese Society of Biomedical Engineering - student member</p></div>
       <div class="award-item"><div class="award-year">2025、2026</div><p>Jiang Zhen Scholarship (twice)</p></div>
       <div class="award-item"><div class="award-year">2024</div><p>Outstanding Graduate of Hebei Province</p></div>
       <div class="award-item"><div class="award-year">2024</div><p>National Scholarship for Undergraduate Students</p></div>
