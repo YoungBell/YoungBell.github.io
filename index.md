@@ -464,8 +464,8 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
     </ol>
   </section>
 
-  <section class="content-section" id="awards & Memberships">
-    <div class="section-heading"><span class="section-number">05</span><h2>Awards</h2></div>
+  <section class="content-section" id="awards & memberships">
+    <div class="section-heading"><span class="section-number">05</span><h2>Awards & Memberships</h2></div>
     <div class="award-list">
       <div class="award-item"><div class="award-year">2024 - 2029</div><p>China Instrument and Control Society - Trainee Engineer of Instrument, Control and Measuremen</p></div>
       <div class="award-item"><div class="award-year">2024 - 2027</div><p>Chinese Society of Biomedical Engineering - student member</p></div>
