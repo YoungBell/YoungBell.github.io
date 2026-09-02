@@ -471,7 +471,7 @@ description: Personal homepage of Shaoduo Fu, Tianjin University
       <div class="award-item"><div class="award-year">2024 - 2027</div><p>Chinese Society of Biomedical Engineering - student member</p></div>
       <div class="award-item"><div class="award-year">2025、2026</div><p>Jiang Zhen Scholarship (twice)</p></div>
       <div class="award-item"><div class="award-year">2024</div><p>Outstanding Graduate of Hebei Province</p></div>
-      <div class="award-item"><div class="award-year">2024</div><p>National Scholarship for Undergraduate Students</p></div>
+      <div class="award-item"><div class="award-year">2023</div><p>National Scholarship for Undergraduate Students</p></div>
     </div>
   </section>
 
